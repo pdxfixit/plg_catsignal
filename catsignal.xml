@@ -27,7 +27,7 @@
 					<option value="all">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_ALL</option>
 					<option value="nsa">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_NSA</option>
 				</field>
-				<field name="expiration" type="calendar" default="" label="PLG_SYSTEM_CATSIGNAL_EXPIRATION_LABEL" description="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_DESCRIPTION" />
+				<field name="expiration" type="calendar" default="" label="PLG_SYSTEM_CATSIGNAL_EXPIRATION_LABEL" description="PLG_SYSTEM_CATSIGNAL_EXPIRATION_DESCRIPTION" />
 			</fieldset>
 		</fields>
 	</config>
