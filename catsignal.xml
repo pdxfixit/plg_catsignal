@@ -8,7 +8,7 @@
 	<authorEmail>support@pdxfixit.com</authorEmail>
 	<authorUrl>http://www.pdxfixit.com/</authorUrl>
 	<version>1.0.1</version>
-	<description>Internet Defense League's Cat Signal Plugin</description>
+	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />July 4, 2013<br />Version: 1.0.2<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
 	<files folder="plugins/system/catsignal">
 		<file plugin="catsignal">catsignal.php</file>
 	</files>
