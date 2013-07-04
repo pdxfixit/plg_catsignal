@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_catsignal</name>
+	<author>Ben Sandberg</author>
+	<creationDate>July 4, 2013</creationDate>
+	<copyright>Copyleft (C) 2013, PDXfixIT, LLC. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>support@pdxfixit.com</authorEmail>
+	<authorUrl>http://www.pdxfixit.com/</authorUrl>
+	<version>1.0</version>
+	<description>Internet Defense League's Cat Signal Plugin</description>
+	<files folder="plugins/system/catsignal">
+		<file plugin="catsignal">catsignal.php</file>
+	</files>
+	<languages folder="administrator/language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_catsignal.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_catsignal.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="variant" type="radio" default="banner" label="PLG_SYSTEM_CATSIGNAL_VARIANT_LABEL" description="PLG_SYSTEM_CATSIGNAL_VARIANT_DESCRIPTION">
+					<option value="banner">PLG_SYSTEM_CATSIGNAL_VARIANT_BANNER</option>
+					<option value="modal">PLG_SYSTEM_CATSIGNAL_VARIANT_MODAL</option>
+				</field>
+				<field name="campaign" type="radio" default="nsa" label="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_LABEL" description="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_DESCRIPTION">
+					<option value="all">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_ALL</option>
+					<option value="nsa">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_NSA</option>
+				</field>
+				<field name="expiration" type="calendar" default="" label="PLG_SYSTEM_CATSIGNAL_EXPIRATION_LABEL" description="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_DESCRIPTION" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="collection" priority="1" name="PDXfixIT">http://updates.pdxfixit.com/plg_catsignal.xml</server>
+	</updateservers>
+</extension>
