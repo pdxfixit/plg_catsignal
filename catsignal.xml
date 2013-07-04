@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 3 or later</license>
 	<authorEmail>support@pdxfixit.com</authorEmail>
 	<authorUrl>http://www.pdxfixit.com/</authorUrl>
-	<version>1.0</version>
+	<version>1.0.0</version>
 	<description>Internet Defense League's Cat Signal Plugin</description>
 	<files folder="plugins/system/catsignal">
 		<file plugin="catsignal">catsignal.php</file>
@@ -31,7 +31,4 @@
 			</fieldset>
 		</fields>
 	</config>
-	<updateservers>
-		<server type="collection" priority="1" name="PDXfixIT">http://updates.pdxfixit.com/plg_catsignal.xml</server>
-	</updateservers>
 </extension>
