@@ -24,7 +24,7 @@ class PlgSystemCatsignal extends JPlugin {
 		$variant = $this->params->get('variant', 'banner');
 
 		// EJECT
-		if (strtotime('now') >= strtotime($expiration))
+		if (!empty($expiration) && strtotime('now') >= strtotime($expiration))
 			return true;
 
 		// Check if the campaign should be included
