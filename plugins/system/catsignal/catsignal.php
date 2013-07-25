@@ -33,7 +33,7 @@ class PlgSystemCatsignal extends JPlugin {
 		}
 
 		// Prepare the JavaScript
-		$javascript .= <<<CATSIGNALJAVASCRIPT
+		$javascript = <<<CATSIGNALJAVASCRIPT
 <script type="text/javascript">
     window._idl = {};
     _idl.variant = "$variant";

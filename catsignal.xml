@@ -2,13 +2,13 @@
 <extension version="2.5" type="plugin" group="system" method="upgrade">
 	<name>plg_system_catsignal</name>
 	<author>Ben Sandberg</author>
-	<creationDate>July 4, 2013</creationDate>
+	<creationDate>July 25, 2013</creationDate>
 	<copyright>Copyleft (C) 2013, PDXfixIT, LLC. All rights reserved.</copyright>
 	<license>GNU General Public License version 3 or later</license>
 	<authorEmail>support@pdxfixit.com</authorEmail>
 	<authorUrl>http://www.pdxfixit.com/</authorUrl>
-	<version>1.0.2</version>
-	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />July 4, 2013<br />Version: 1.0.2<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
+	<version>1.0.3</version>
+	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />July 25, 2013<br />Version: 1.0.3<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
 	<files folder="plugins/system/catsignal">
 		<file plugin="catsignal">catsignal.php</file>
 	</files>
@@ -23,9 +23,10 @@
 					<option value="banner">PLG_SYSTEM_CATSIGNAL_VARIANT_BANNER</option>
 					<option value="modal">PLG_SYSTEM_CATSIGNAL_VARIANT_MODAL</option>
 				</field>
-				<field name="campaign" type="radio" default="nsa" label="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_LABEL" description="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_DESCRIPTION">
+				<field name="campaign" type="list" default="all" label="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_LABEL" description="PLG_SYSTEM_CATSIGNAL_CAMPAIGN_DESCRIPTION">
 					<option value="all">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_ALL</option>
 					<option value="nsa">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_NSA</option>
+					<option value="defundnsa">PLG_SYSTEM_CATSIGNAL_CAMPAIGN_DEFUNDNSA</option>
 				</field>
 				<field name="expiration" type="calendar" default="" label="PLG_SYSTEM_CATSIGNAL_EXPIRATION_LABEL" description="PLG_SYSTEM_CATSIGNAL_EXPIRATION_DESCRIPTION" />
 			</fieldset>
