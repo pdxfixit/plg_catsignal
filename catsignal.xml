@@ -7,8 +7,8 @@
 	<license>GNU General Public License version 3 or later</license>
 	<authorEmail>support@pdxfixit.com</authorEmail>
 	<authorUrl>http://www.pdxfixit.com/</authorUrl>
-	<version>1.0.3</version>
-	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />July 25, 2013<br />Version: 1.0.3<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
+	<version>1.1.0</version>
+	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />July 25, 2013<br />Version: 1.1.0<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
 	<files folder="plugins/system/catsignal">
 		<file plugin="catsignal">catsignal.php</file>
 	</files>
@@ -32,4 +32,7 @@
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="IDL Cat Signal">http://updates.pdxfixit.com/plg_catsignal.xml</server>
+	</updateservers>
 </extension>

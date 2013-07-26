@@ -8,7 +8,6 @@ class PlgSystemCatsignal extends JPlugin {
 
 	/**
 	 * Method to catch the onAfterRender event.
-	 *
 	 * @access  public
 	 * @since   1.0
 	 */
