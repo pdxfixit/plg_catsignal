@@ -6,8 +6,8 @@
 		<element>catsignal</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>1.1.0</version>
-		<infourl title="Cat Signal v1.1.0">http://www.pdxfixit.com/</infourl>
+		<version>1.2.0</version>
+		<infourl title="Cat Signal v1.2.0">http://www.pdxfixit.com/</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">http://updates.pdxfixit.com/plg_catsignal.zip</downloadurl>
 		</downloads>

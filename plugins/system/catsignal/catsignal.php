@@ -41,11 +41,10 @@ class PlgSystemCatsignal extends JPlugin {
         var idl = document.createElement('script');
         idl.type = 'text/javascript';
         idl.async = true;
-        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || '$variant');
         document.getElementsByTagName('body')[0].appendChild(idl);
     })();
 </script>
-
 CATSIGNALJAVASCRIPT;
 
 		// Adjust the buffer.
