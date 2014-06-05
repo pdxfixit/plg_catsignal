@@ -49,9 +49,11 @@ CATSIGNALJAVASCRIPT;
 
 		// Adjust the buffer.
 		$buffer = JResponse::getBody();
-		$pos = strrpos($buffer, "</body>");
-		// todo: FUTURE FEATURE: Double-check that there isn't any duplicate code.
-		$buffer = substr($buffer, 0, $pos) . $javascript . substr($buffer, $pos);
+        preg_match("/<body[^>]*>/i", $buffer, $matches);
+        $pos = strrpos($buffer, $matches[0]);
+        $offset = strlen($matches[0]);
+        // todo: FUTURE FEATURE: Double-check that there isn't any duplicate code.
+        $buffer = substr($buffer, 0, $pos + $offset) . PHP_EOL . $javascript . substr($buffer, $pos + $offset);
 		JResponse::setBody($buffer);
 
 		return true;

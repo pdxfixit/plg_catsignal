@@ -2,13 +2,13 @@
 <extension version="2.5" type="plugin" group="system" method="upgrade">
 	<name>plg_system_catsignal</name>
 	<author>Ben Sandberg</author>
-	<creationDate>June 3, 2014</creationDate>
-	<copyright>Copyleft (C) 2013, PDXfixIT, LLC. All rights reserved.</copyright>
+	<creationDate>June 5, 2014</creationDate>
+	<copyright>Copyleft (C) 2013-2014, PDXfixIT, LLC. All rights reserved.</copyright>
 	<license>GNU General Public License version 3 or later</license>
-	<authorEmail>support@pdxfixit.com</authorEmail>
+	<authorEmail>info@pdxfixit.com</authorEmail>
 	<authorUrl>http://www.pdxfixit.com/</authorUrl>
-	<version>1.2.0</version>
-	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />June 3, 2014<br />Version: 1.2.0<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
+	<version>1.2.1</version>
+	<description><![CDATA[Internet Defense League's Cat Signal Plugin<br />June 5, 2014<br />Version: 1.2.1<br /><br /><a href="index.php?option=com_plugins&filter_search=cat%20signal" style="font-size: larger;">Please click here to enable and configure the plugin.</a>]]></description>
 	<files folder="plugins/system/catsignal">
 		<file plugin="catsignal">catsignal.php</file>
 	</files>
